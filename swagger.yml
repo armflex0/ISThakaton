@@ -44,7 +44,7 @@ paths:
         400:
           description: Bad Request
         401:
-          description: not authorized
+          description: not authorized...
         500:
           description: Server Error
 
@@ -87,7 +87,7 @@ paths:
         401:
           description: not authorized
         404:
-          description: Not Found
+          description: Not Found!
         500:
           description: Server Error
 
@@ -136,7 +136,7 @@ paths:
         401:
           description: not authorized
         404:
-          description: Not Found
+          description: Not Found!
         500:   
           description: Server Error
 
@@ -174,7 +174,7 @@ paths:
         401:
           description: not authorized
         404:
-          description: Not Found
+          description: Not Found!
         500:
           description: Server Error
 
@@ -226,7 +226,7 @@ paths:
         403:
           description: Forbidden
         404:
-          description: Not Found
+          description: Not Found!
         500:
           description: Server Error
 

@@ -72,7 +72,7 @@ def create(user):
 
         return data, 201
     else:
-         abort(409, f"User was exist")
+         abort(409, f"User was exist...")
 
 def update(user_id, token, user):
     update_user = User.query.filter(

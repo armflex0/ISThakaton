@@ -4,6 +4,7 @@ from marshmallow import fields
 from marshmallow_sqlalchemy import ModelSchema
 
 
+
 class User(db.Model):
     __tablename__ = "user"
     id = db.Column(db.Integer, db.Sequence("seq_user_id"), primary_key=True)
